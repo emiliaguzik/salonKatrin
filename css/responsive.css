@@ -1,0 +1,29 @@
+/* 1200 , 992 , 768, 576 */
+
+
+@media all and (max-width: 992px) {
+    
+    
+    nav ul {
+        display: block;
+    }
+    nav ul li {
+        display: block;
+    }
+   
+@media all and (max-width: 768px) {
+    
+#contact .contact-data, #contact .contact-form {
+    width: 100%;
+    }
+}
+
+@media all and (max-width: 576px) {
+    #main-header .main-header-content h1 {
+        font-size: 2em;
+    }
+    
+        #main-header .main-header-content h2 {
+        font-size: 1em;
+    }
+}

@@ -1,0 +1,209 @@
+ html {
+     scroll-behavior: smooth;
+ }
+
+ * {
+     box-sizing: border-box;
+ }
+
+ body {
+     padding: 0;
+     margin: 0;
+     font-family: 'Raleway', sans-serif;
+     color: #22272B;
+     font-weight: ;
+ }
+
+ /* Navigation */
+
+ /*Przyjrzyj się w kodzie z portfolio, tam na zmianę jest uzupełniane. Normalne stylowanie i stylowanie ze scrollem. Poradzisz sobie <3 */
+
+ small {
+     font-size: 12px;
+     color: rgba(0, 0, 0, 0.4);
+ }
+
+ .center {
+     text-align: center;
+ }
+
+ nav {
+     width: 100%;
+     margin: 0 auto;
+     background: #fff;
+     padding: 0 0;
+     box-shadow: 0px 5px 0px #dedede;
+
+ }
+
+ #menu {
+     position: fixed;
+     width: 100%;
+     margin: 0 auto;
+     background: #fff;
+     padding: 10px 0;
+     box-shadow: 0px 5px 0px #dedede;
+ }
+
+ nav.scroll {
+     background-color: #fff;
+ }
+
+ nav ul {
+     list-style: none;
+     text-align: center;
+ }
+
+ nav ul li {
+     display: inline-block;
+ }
+
+ nav ul li a {
+     display: block;
+     padding: 15px;
+     text-decoration: none;
+     color: #494D59;
+     font-weight: 800;
+     text-transform: uppercase;
+     margin: 0 10px;
+ }
+
+ nav ul li a,
+ nav ul li a:after,
+ nav ul li a:before {
+     transition: all .5s;
+ }
+
+ nav ul li a:hover {
+     color: #DAC617;
+ }
+
+ /* stroke */
+
+ nav.stroke ul li a,
+ nav.fill ul li a {
+     position: relative;
+ }
+
+ nav.stroke ul li a:after,
+ nav.fill ul li a:after {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     margin: auto;
+     width: 0%;
+     content: '.';
+     color: transparent;
+     background: #494D59;
+     height: 1px;
+
+ }
+
+ nav.stroke ul li a:hover:after {
+     width: 100%;
+ }
+
+ nav.fill ul li a {
+     transition: all 2s;
+ }
+
+ /* Keyframes */
+
+ @-webkit-keyframes fill {
+     0% {
+         width: 0%;
+         height: 1px;
+     }
+     50% {
+         width: 100%;
+         height: 1px;
+     }
+     100% {
+         width: 100%;
+         height: 100%;
+         background: #2ECC71;
+     }
+ }
+
+ /*Header styles*/
+
+ #main-header {
+     position: relative;
+     background-image: url(../img/srodek1.jpg);
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     height: 90vh;
+     z-index: -1;
+     height: 100vh;
+ }
+
+ #main-header .main-header-content {
+     position: absolute;
+     top: 50%;
+     width: 100%;
+     transform: translateY(-50%);
+     text-align: center;
+     color: #fff;
+ }
+
+ #main-header .main-header-content h1 {
+     font-size: 5em;
+     font-family: 'Raleway', Regular Italic;
+     font-weight: ;
+ }
+
+ #main-header .main-header-content h2 {
+     font-weight: 200;
+     font-size: 3em;
+ }
+
+ /*About */
+
+ #about {
+     background-color: #f9fcfe;
+ }
+
+ .section-header {
+     font-family: 'Raleway', Regular Italic;
+     text-align: center;
+     font-size: 2em;
+ }
+
+ #opis {
+     text-align: left;
+
+ }
+
+ /* photo at section about (produkty) */
+
+ #about figure img {
+     max-height: 350px;
+     max-width: 100%;
+     border: 15px solid #fff;
+     border-radius: 4px;
+
+
+
+
+
+
+
+
+
+
+
+
+     /*License
+
+navigation effect: Copyright (c) 2018 by Dominik Biedebach (https://codepen.io/d2k/pen/jEmWXq)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. 
+
+icon: >Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY
+*/
