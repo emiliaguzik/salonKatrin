@@ -1,4 +1,4 @@
- html {
+  html {
      scroll-behavior: smooth;
  }
 
@@ -16,7 +16,7 @@
 
  /* Navigation */
 
- /*Przyjrzyj się w kodzie z portfolio, tam na zmianę jest uzupełniane. Normalne stylowanie i stylowanie ze scrollem. Poradzisz sobie <3 */
+ /*Przyjrzyj siÄ™ w kodzie z portfolio, tam na zmianÄ™ jest uzupeÅ‚niane. Normalne stylowanie i stylowanie ze scrollem. Poradzisz sobie <3 */
 
  small {
      font-size: 12px;
@@ -38,6 +38,7 @@
 
  #menu {
      position: fixed;
+     z-index: 2;
      width: 100%;
      margin: 0 auto;
      background: #fff;
@@ -183,6 +184,7 @@
  }
 
  #about figure img {
+     z-index:1;
      max-height: 350px;
      max-width: 100%;
 }
@@ -196,6 +198,7 @@
          position: relative;
          text-align: center;
          cursor: default;
+
      }
 
      .hovereffect .overlay {
