@@ -181,21 +181,6 @@
      box-sizing: border-box;
  }
 
- /*napis na img */
-.container1 {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
- .produkt-title {
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     z-index:1;
- }
-
  /* img of products */
 
  #about figure img {
